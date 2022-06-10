@@ -7,7 +7,7 @@
     --primary-font-size: 14px;
     }
 html {
-    background-color: grey;
+    background-color: #E5E5E5;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 
 /* nav */
 .nav-link {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
@@ -40,7 +40,7 @@ list-style-type: none;
 
 }
 .list-link {
-font-size: 14px;
+font-size: var(--primary-font-size);
 color: var(--color-secondary-text);
 text-decoration: none;
 line-height: 1.2;
@@ -62,8 +62,11 @@ color: var(--color-akcent);
 .nav-list {
 padding-top: 32px;
 }
-.heder {height: 80px; 
-    border: 1px solid #ECECEC;}
+.heder {
+    height: 80px; 
+    border: 1px solid #ECECEC;
+
+}
 
 
 /* mine index*/
@@ -75,6 +78,7 @@ padding-top: 32px;
     background-color: var(--secondary-backgraund);
 }
 .hero-discription {
+    margin: 0;
     padding-top: 200px;
     padding-left: 452px;
     padding-right: 452px;
@@ -125,7 +129,7 @@ padding-top: 32px;
 }
 .plus-title {
     font-weight: 700;
-    font-size: 14px;
+    font-size: var(--primary-font-size);
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -133,8 +137,7 @@ padding-top: 32px;
 }
 .plus-content {
     width: 270px;
-    font-weight: 400;
-    font-size: 14px;
+    font-size: var(--primary-font-size);
     line-height: 1.7;
     color: var(--color-primary-text); 
 }
@@ -193,7 +196,6 @@ padding-top: 32px;
     color: var(--color-secondary-text);
 }
 .team-job {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
@@ -235,6 +237,7 @@ padding-top: 32px;
         margin-right: 8px;
         text-decoration: none;
         border-radius: 4px;
+        border: none;
         background-color: #F5F4FA;
         color: var(--color-secondary-text);
 }
@@ -243,7 +246,13 @@ padding-top: 32px;
 .botton-content3:hover,
 .botton-content4:hover,
 .botton-content5:hover,
-.botton-content6:hover {
+.botton-content6:hover,
+.botton-content1:focus,
+.botton-content2:focus,
+.botton-content3:focus,
+.botton-content4:focus,
+.botton-content5:focus,
+.botton-content6:focus {
     background-color: var(--color-akcent);
     color: #fff;
 }
@@ -277,9 +286,7 @@ padding-top: 32px;
     
 }
 .project-content {
-   
     text-decoration: none;
-    /* list-style-type: none; */
     margin-right: 30px;
 }
 
@@ -292,13 +299,14 @@ padding-top: 32px;
     margin-bottom: 4px;
 }
 .project-content {
-    font-weight: 400;
-    font-size: 16px;
+     font-size: 16px;
     line-height: 1.9;
    letter-spacing: 0.03em;
    color: var(--color-primary-text);
 }
-
+.project {
+    margin-bottom: 94px;
+}
 
 
 /* futer */
@@ -319,7 +327,7 @@ padding-top: 32px;
     padding-left: 215px;
     margin-top: 60px;
     display: inline-block;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     
 }
 .footer-logo {
@@ -336,7 +344,7 @@ padding-top: 32px;
 }
 .adress-map {
     font-weight: 400;
-    font-size: 14px;
+    font-size: var(--primary-font-size);
     line-height: 1.7;
     letter-spacing: 0.03em;
     width: 230px;
@@ -347,8 +355,8 @@ padding-top: 32px;
 .adress-link {
 text-decoration: none;
 font-weight: 400;
-font-size: 14px;
-line-height: 24px;
+font-size: var(--primary-font-size);
+line-height: 1.7;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
