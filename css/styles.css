@@ -62,7 +62,8 @@ color: var(--color-akcent);
 .nav-list {
 padding-top: 32px;
 }
-.heder {height: 80px;}
+.heder {height: 80px; 
+    border: 1px solid #ECECEC;}
 
 
 /* mine index*/
@@ -233,6 +234,7 @@ padding-top: 32px;
         height: 38px;
         margin-right: 8px;
         text-decoration: none;
+        border-radius: 4px;
         background-color: #F5F4FA;
         color: var(--color-secondary-text);
 }
@@ -270,13 +272,14 @@ padding-top: 32px;
     display: flex;
     flex-wrap: wrap;
     padding-left: 215px;
+    list-style-type: none;
  
     
 }
 .project-content {
    
     text-decoration: none;
-    list-style-type: none;
+    /* list-style-type: none; */
     margin-right: 30px;
 }
 
