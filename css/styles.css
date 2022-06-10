@@ -98,6 +98,10 @@ padding-top: 32px;
     border: none;
     border-radius: 4px;
 }
+.hero-buttom:hover,
+.hero-buttom:focus {
+    cursor: pointer;
+}
 
 .plus-notitle{
     display: none;
@@ -202,8 +206,6 @@ padding-top: 32px;
     margin-top: 95px;
 }
 .botton-list {
-
-
     display: flex;
     list-style-type: none;
     padding-left: 495px;
@@ -241,10 +243,6 @@ text-align: center;
     list-style-type: none;
     margin-right: 30px;
 }
-.project {
-
-}
-
 
 /* futer */
 
