@@ -263,12 +263,10 @@ padding-top: 32px;
     color: #fff;
 }
 
-.botton-title, 
 .project-title {
     display: none;
 }
 .project-list {
-   
     display: flex;
     flex-wrap: wrap;
     padding-left: 215px;
