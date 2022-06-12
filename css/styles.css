@@ -8,7 +8,9 @@
     }
 html {
     background-color: #E5E5E5;
+   
 }
+
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -16,21 +18,22 @@ body {
     background-color: var(--primary-backgraund);
     width: 1600px;
     margin: auto;
+
 }
 
 /* nav */
 .nav-link {
-font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-text-decoration: none;
-color: var(--color-secondary-text);
-padding-left: 215px;
-padding-top: 35px;
-margin-right: 90px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--color-secondary-text);
+    padding-left: 215px;
+    padding-top: 35px;
+    margin-right: 90px;
 }
 .nav-logo{
     color: var(--color-akcent);
@@ -40,14 +43,14 @@ list-style-type: none;
 
 }
 .list-link {
-font-size: var(--primary-font-size);
-color: var(--color-secondary-text);
-font-weight: 500;
-text-decoration: none;
-line-height: 1.17;
-letter-spacing: 0.02em;
-margin-right: 50px;
-display: block;
+    font-size: var(--primary-font-size);
+    color: var(--color-secondary-text);
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    margin-right: 50px;
+    display: block;
 }
 .list-contact {
     font-size: var(--primary-font-size);
@@ -237,24 +240,24 @@ padding-top: 32px;
     margin-bottom: 34px;
 }
 .botton-content {
-        display: block;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.6;
-        appearance: none;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        letter-spacing: 0.03em;
-        height: 38px;
-        min-width: 100px;
-        margin-right: 8px;
-        text-decoration: none;
-        border-radius: 4px;
-        border: none;
-        box-shadow: 0 5px 5px rgba(133, 131, 131, 0.5);
-        background-color: #F5F4FA;
-        color: var(--color-secondary-text);
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    appearance: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    height: 38px;
+    min-width: 100px;
+    margin-right: 8px;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 5px 5px rgba(133, 131, 131, 0.5);
+    background-color: #F5F4FA;
+    color: var(--color-secondary-text);
 }
 
 .botton-content:hover,
@@ -271,8 +274,6 @@ padding-top: 32px;
     flex-wrap: wrap;
     padding-left: 215px;
     list-style-type: none;
- 
-    
 }
 .project-content {
     text-decoration: none;
@@ -288,10 +289,10 @@ padding-top: 32px;
     margin-bottom: 4px;
 }
 .project-content {
-     font-size: 16px;
+    font-size: 16px;
     line-height: 1.9;
-   letter-spacing: 0.03em;
-   color: var(--color-primary-text);
+    letter-spacing: 0.03em;
+    color: var(--color-primary-text);
 }
 .project {
     margin-bottom: 94px;
@@ -303,11 +304,9 @@ padding-top: 32px;
 .footer {
     width: 1600px;
     height: 250px;
-  
     background-color: var(--secondary-backgraund);
 }
 .footer-link {
-    
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -342,9 +341,9 @@ padding-top: 32px;
 }
 
 .adress-link {
-text-decoration: none;
-font-size: var(--primary-font-size);
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: var(--primary-font-size);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
