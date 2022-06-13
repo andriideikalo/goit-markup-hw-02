@@ -40,8 +40,8 @@ body {
 }
 .list {
 list-style-type: none;
-
 }
+
 .list-link {
     font-size: var(--primary-font-size);
     color: var(--color-secondary-text);
@@ -68,6 +68,10 @@ list-style-type: none;
 .list-link:focus {
 color: var(--color-akcent);
 }
+.list-current {
+    color: var(--color-akcent);
+}
+
 .heder,
 .nav-list,
 .nav {
