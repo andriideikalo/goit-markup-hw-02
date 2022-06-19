@@ -85,7 +85,7 @@ padding-top: 32px;
 }
 .heder {
     height: 80px; 
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 
 }
 
